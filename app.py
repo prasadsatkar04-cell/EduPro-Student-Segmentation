@@ -51,7 +51,8 @@ h1, h2, h3 {
 # =====================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "dataset"
+
+DATA_DIR = BASE_DIR
 
 
 @st.cache_data
